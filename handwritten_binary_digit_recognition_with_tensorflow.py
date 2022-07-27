@@ -7,8 +7,8 @@ from tensorflow.python.keras.losses import BinaryCrossentropy
 from keras import Sequential
 
 import matplotlib.pylab as plt
-X=np.load("Files_hdr_tensorflow/Files/X.npy")
-Y=np.load("Files_hdr_tensorflow/Files/Y.npy")
+X=np.load("X.npy")
+Y=np.load("Y.npy")
 print(Y.shape)
 # Lets plot the data to see the intensity profiles for some random training sets
 m,n=X.shape
